@@ -1,0 +1,14 @@
+/* Seteo la font según manual de marca */
+$font-family-sans-serif: "Montserrat", sans-serif;
+
+/* Override de los colores según manual de marca */
+$primary: #32aaf6;
+$secondary: #efeae6;
+$light: #efeae6;
+$dark: #1e1e1e;
+
+/* Importo el modulo de Arbell */
+@import "arbell.scss";
+
+/* Importo el core de bootstrap para utilizarlo con sass */
+@import "../node_modules/bootstrap/scss/bootstrap";

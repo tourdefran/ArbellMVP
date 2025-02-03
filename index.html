@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbell FE MVP - Franco Arias</title>
+
+    <!-- Montserrat Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.3.3 -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    
+
+
+</head>
+<body>
+  <header class="mb-3 border-bottom b-shadow sticky-top">
+      <nav class="navbar navbar-expand-lg bg-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/logos/svg/iso_a.svg" width="60"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Quiero vender</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Test de piel</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Propuesta comercial</a>
+                </li>
+              </ul> -->
+              <form class="d-flex w-100 position-relative" role="search">
+                <input class="form-control px-5 rounded-5 text-center" type="search" placeholder="¿Qué estás buscando?" aria-label="¿Qué estás buscando?">
+                <button class="btn position-absolute top-50 end-0 translate-middle-y me-2 p-2 border-0 bg-transparent" type="submit">
+                    <img src="assets/icons/svg/Buscador.svg" width="25" alt="Buscar">
+                </button>
+              </form>         
+            </div>
+          </div>
+      </nav>
+  </header>
+  <div class="container-fluid">
+    <swiper-container navigation="true" pagination="true">
+      <swiper-slide>
+        <div class="position-relative">
+          <img src="/images/carousel/desk/1.jpg" class="position-absolute w-100 d-none d-md-flex" alt="Bodybell">
+          <!-- <a href="#" class="position-absolute btn btn-secondary rounded-5"><img src="/assets/icons/svg/cart.svg" />¡LO QUIERO!</a> -->
+        </div>
+        <img src="/images/carousel/mobile/1.jpg" class="img-fluid w-100 d-md-none" alt="Bodybell">
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/carousel/desk/2.jpg" class="img-fluid w-100 d-none d-md-flex" alt="Esmalte">
+        <img src="/images/carousel/mobile/2.jpg" class="img-fluid w-100 d-md-none" alt="Esmalte">
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/carousel/desk/3.jpg" class="img-fluid w-100 d-none d-md-flex" alt="Lanzamientos">
+        <img src="/images/carousel/mobile/3.jpg" class="img-fluid w-100 d-md-none" alt="Lanzamientos">
+      </swiper-slide>
+    </swiper-container> 
+  </div>
+
+    
+</body>
+</html>
